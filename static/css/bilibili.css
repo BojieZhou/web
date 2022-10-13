@@ -1,0 +1,117 @@
+.user-card {
+    width: 366px;
+    height: 215px;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+.user-card-head {
+    background-image: url(/static/images/background-bilibili.png);
+    background-size: cover;
+    width: 100%;
+    height: 85px;
+}
+
+.user-card-body {
+    width: 100%;
+    height: calc(100% - 85px);
+    box-sizing: border-box;
+    padding-top: 12px;
+}
+
+.user-card-body-left {
+    width: 70px;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.user-card-body-left img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.user-card-body-right {
+    width: calc(100% - 70px);
+    float: left;
+    height: 100%;
+}
+
+.user-card-body-right-text {
+    width: 100%;
+    height: 60%;
+}
+
+.user-card-body-right-text-username > a{
+    font-size: 22px;
+    color: #222;
+    font-weight: bold;
+    padding: 0px;
+    text-decoration-line: none;
+    padding-left: 10px;
+}
+
+.user-card-body-right-text-username > span {
+    font-size: 12px;
+    color: #8BD298;
+    font-style: italic;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 5px;
+}
+
+.user-card-body-right-text-reputation {
+    margin-left: 10px;
+    padding-top: 3px;
+    box-sizing: border-box;
+}
+
+.user-card-body-right-text-reputation > a > span{
+    text-decoration-line: none;
+    font-size: 12px;
+    color: #222;
+    font-weight: 500;
+}
+
+.user-card-body-right-text-reputation > a {
+    text-decoration-line: none;
+    font-size: 12px;
+    color: #9499A0;
+    margin-right: 10px;
+}
+
+.user-card-body-right-button {
+    padding-left: 10px;
+}
+
+.user-card-body-right-button > button {
+    width: 102px;
+    height: 30px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.user-card-body-right-button > button:nth-child(1) {
+    background-color: #00A1D6;
+    color: white;
+}
+
+.user-card-body-right-button>button:nth-child(1):hover {
+    background-color: #00B5E5;
+    transition: 700ms;
+}
+
+.user-card-body-right-button > button:nth-child(2) {
+    background-color: white;
+    border: #6D757A solid 1px;
+    color: #6D757A;
+}
+
+.user-card-body-right-button>button:nth-child(2):hover {
+    border-color: #00B5E5;
+    color: #00B5E5;
+    transition: 700ms;
+}
